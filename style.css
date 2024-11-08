@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #FFFEFE;
+    height: 100%;
+    max-width: 100%;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 285px);
+    width: 570px;
+    background-color: #F3F4F6;
+    border-radius: 20px;
+    margin: 1% auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.grid-item {
+    z-index: 1;
+}
+
+.team-details {
+    grid-column: 1 / 3;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.main-container .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.team-details .blue-text {
+    color: #263FA9 !important;
+    margin-bottom: 1rem;
+}
+
+.team-details p {
+    color: #394150;
+}
+
+.team-details h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.liam {
+    background-color: #C1B6F8;
+}
+
+.sophia {
+    background-color: #EDACD2;
+}
+
+.ethan {
+    background-color: #9DC4F8;
+}
+
+.isabella {
+    background-color: #F8D8B0;
+}
+
+.noah {
+    background-color: #86E7D4;
+}
+
+.member img.member-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.member img.gradient {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.member {
+    position: relative;
+}
+
+.names {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 1.5rem;
+    z-index: 1;
+}
+
+.author {
+    color: #FFFEFE;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.title {
+    color: #F3F4F6;
+}
+
+.grid-item.all {
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5rem;
+}
+
+.grid-item .link-all {
+    display: flex;
+    gap: 5px;}
+
+.grid-item .link-all img {
+    width: 18px;
+}
+
+
+
+/* @media (min-width: 640px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: repeat(3, 285px);
+        width: 855px;
+    }
+
+    .team-details {
+        grid-column: 1 / 4;}
+
+    .all {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+} */
+
+/* @media (min-width: 1024px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: repeat(4, 285px);
+        width: 1135px;
+        margin-top: 5rem;
+    }
+    .all {
+        grid-area: 2 / 1 / 2 / 2;
+    }
+} */
+
