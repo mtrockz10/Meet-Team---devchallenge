@@ -124,7 +124,7 @@ body {
 
 
 
-/* @media (min-width: 640px) {
+@media (min-width: 640px) {
     .main-container {
         display: grid;
         grid-template-columns: repeat(3, 285px);
@@ -137,17 +137,30 @@ body {
     .all {
         grid-area: 3 / 1 / 4 / 2;
     }
-} */
+}
 
-/* @media (min-width: 1024px) {
+@media (min-width: 1024px) {
     .main-container {
         display: grid;
         grid-template-columns: repeat(4, 285px);
         width: 1135px;
-        margin-top: 5rem;
+        margin-top: 9rem;
     }
     .all {
-        grid-area: 2 / 1 / 2 / 2;
+        grid-area: 2 / 1 / 2 / 3;
     }
-} */
+    /* .liam {
+        grid-area: 1 / 3 / 2 / 4;
+    }
+    .sophia {
+        grid-area: 1 / 4 / 2 / 5;
+    } */
+
+    .team-details {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+    .ethan {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+}
 
